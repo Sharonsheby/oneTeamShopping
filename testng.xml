@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OneTeamShopping Test Suite">
+<listeners>
+<listener class-name="utilities.ReportManager"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCases.HomePageTest" />
+      <class name="TestCases.AddToCartTest"></class>
+    
+    </classes>
+  </test>
+
+</suite>
